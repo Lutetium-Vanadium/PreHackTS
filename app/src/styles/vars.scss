@@ -1,0 +1,10 @@
+$bgcol: #121114;
+$fwbgcol: #29282c;
+$lightblue: #3260dd;
+
+@mixin flex-box($justify: center, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
